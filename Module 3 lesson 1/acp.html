@@ -1,50 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Grid Example</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script
-    src="https://maxcdn.bootstrapcdn.com/boostrap/3.4.1/js/boostrap.min.js"></script>
-    <style type="text/css">
-        h1 {
-            color: blue;
-        }
-        #a1, #a4 {
-            color: aqua;
-            background: salmon;
-            font-size: 20px;
-        }
-        #a2, #a5 {
-            color: lightcoral;
-            background: rgb(127, 154, 213);
-            font-size: 20px;
-        }
-        #a3, #a6 {
-            color: rgb(15, 123, 15);
-            background: rgb(247, 239, 166);
-            font-size: 20px;
-        }
-    </style>
+<html>
+    <head>
+        <title>Navbar</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: rgb(219, 146, 216);
+            }
+            .topnav a {
+                float: left;
+                color: rgb(30, 102, 235);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: medium;
+            }
+            .topnav a:hover {
+                background-color: thistle;
+                color: brown;
+            }
+            .topnav a.active {
+                background-color: violet;
+                color: rgba(195, 44, 44, 0);
+            }
+        </style>
     </head>
     <body>
-        <div class="container-fluid">
-            <!-- class="container-fluid" provides full width page-->
-             <h1>Sports: Advantages and Disadvantages</h1>
-             <div class="row">
-                <div id="a1" class="col-sm-3">Sports helps you to stay fit, competitive and helps you to develop skills.🤪</div>
-                <div id="a2" class="col-sm-4">While you are doing sports, you should make sure that you are not over exerting your self too much.😨</div>
-                <div id="a3" class="col-sm-5">You can do sports with your family and friends for fun!🙃</div>
-             </div>
-             <div class="row">
-                <div id="a4" class="col-sm-2">Make sure that you dont push or pull anyone while playing or else they will get hurt!😀</div>
-                <div id="a5" class="col-sm-6">There are different sports such as badminton, swimming, tennis, football, volleyball and more which are entertaining.⚽️ </div>
-                <div id="a6" class="col-sm-6">In conclusion, sports are good for you but just as I said, there are a few disadvantages that you should be aware of. Have a good day!😎 </div>
-             </div>
-        </div>
+
+        <div class="topnav"
+        <a class="active" href="home">Home</a>
+        <a href="#news">About Us</a>
+        <a href="#contact">Gallery</a>
+        <a href="#about">Contact_Us</a>
+    </div>
     </body>
-    </html>
+</html>
